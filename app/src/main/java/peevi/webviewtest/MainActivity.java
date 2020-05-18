@@ -70,6 +70,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        webView.loadUrl("https://jpeevi.github.io/checkout");
+        webView.loadUrl("https://praveengirishnadumani.github.io/Testing/");
     }
 }
