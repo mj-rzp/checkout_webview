@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        CookieManager.getInstance().setAcceptCookie(false);
+        CookieManager.getInstance().setAcceptCookie(true);
         CookieManager.getInstance().setAcceptThirdPartyCookies(webView,false);
 
         webView.clearCache(true);
@@ -70,6 +70,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        webView.loadUrl("https://praveengirishnadumani.github.io/Testing/");
+
+        //change the below to any other html url if needed
+
+        webView.loadUrl("https://ayush-razorpay.github.io/checkout_webview/standerd.html");
     }
 }
